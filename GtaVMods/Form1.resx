@@ -1,0 +1,426 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="okButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>467, 268</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="okButton.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="okButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 29</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="okButton.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="okButton.Text" xml:space="preserve">
+    <value>Başlat</value>
+  </data>
+  <data name="&gt;&gt;okButton.Name" xml:space="preserve">
+    <value>okButton</value>
+  </data>
+  <data name="&gt;&gt;okButton.Type" xml:space="preserve">
+    <value>DarkUI.Controls.DarkButton, DarkUI, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;okButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;okButton.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="modsfolder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 99</value>
+  </data>
+  <data name="modsfolder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>311, 27</value>
+  </data>
+  <data name="modsfolder.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;modsfolder.Name" xml:space="preserve">
+    <value>modsfolder</value>
+  </data>
+  <data name="&gt;&gt;modsfolder.Type" xml:space="preserve">
+    <value>DarkUI.Controls.DarkTextBox, DarkUI, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;modsfolder.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;modsfolder.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="darkLabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="darkLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 45</value>
+  </data>
+  <data name="darkLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 20</value>
+  </data>
+  <data name="darkLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="darkLabel1.Text" xml:space="preserve">
+    <value>Dosyanın Depolancağı yer</value>
+  </data>
+  <data name="&gt;&gt;darkLabel1.Name" xml:space="preserve">
+    <value>darkLabel1</value>
+  </data>
+  <data name="&gt;&gt;darkLabel1.Type" xml:space="preserve">
+    <value>DarkUI.Controls.DarkLabel, DarkUI, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;darkLabel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;darkLabel1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="gtafolder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>670, 101</value>
+  </data>
+  <data name="gtafolder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>311, 27</value>
+  </data>
+  <data name="gtafolder.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;gtafolder.Name" xml:space="preserve">
+    <value>gtafolder</value>
+  </data>
+  <data name="&gt;&gt;gtafolder.Type" xml:space="preserve">
+    <value>DarkUI.Controls.DarkTextBox, DarkUI, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;gtafolder.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gtafolder.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="darkLabel2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="darkLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>670, 54</value>
+  </data>
+  <data name="darkLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 20</value>
+  </data>
+  <data name="darkLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="darkLabel2.Text" xml:space="preserve">
+    <value>GTA Konumu</value>
+  </data>
+  <data name="&gt;&gt;darkLabel2.Name" xml:space="preserve">
+    <value>darkLabel2</value>
+  </data>
+  <data name="&gt;&gt;darkLabel2.Type" xml:space="preserve">
+    <value>DarkUI.Controls.DarkLabel, DarkUI, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;darkLabel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;darkLabel2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="modsfolderbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 99</value>
+  </data>
+  <data name="modsfolderbutton.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="modsfolderbutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 29</value>
+  </data>
+  <data name="modsfolderbutton.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="modsfolderbutton.Text" xml:space="preserve">
+    <value>Klasör Seç</value>
+  </data>
+  <data name="&gt;&gt;modsfolderbutton.Name" xml:space="preserve">
+    <value>modsfolderbutton</value>
+  </data>
+  <data name="&gt;&gt;modsfolderbutton.Type" xml:space="preserve">
+    <value>DarkUI.Controls.DarkButton, DarkUI, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;modsfolderbutton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;modsfolderbutton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="gtafolderbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1000, 99</value>
+  </data>
+  <data name="gtafolderbutton.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="gtafolderbutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 29</value>
+  </data>
+  <data name="gtafolderbutton.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="gtafolderbutton.Text" xml:space="preserve">
+    <value>Klasör Seç</value>
+  </data>
+  <data name="&gt;&gt;gtafolderbutton.Name" xml:space="preserve">
+    <value>gtafolderbutton</value>
+  </data>
+  <data name="&gt;&gt;gtafolderbutton.Type" xml:space="preserve">
+    <value>DarkUI.Controls.DarkButton, DarkUI, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;gtafolderbutton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gtafolderbutton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="gtavalue.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gtavalue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>670, 168</value>
+  </data>
+  <data name="gtavalue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 20</value>
+  </data>
+  <data name="gtavalue.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="gtavalue.Text" xml:space="preserve">
+    <value>darkLabel3</value>
+  </data>
+  <data name="gtavalue.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;gtavalue.Name" xml:space="preserve">
+    <value>gtavalue</value>
+  </data>
+  <data name="&gt;&gt;gtavalue.Type" xml:space="preserve">
+    <value>DarkUI.Controls.DarkLabel, DarkUI, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;gtavalue.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gtavalue.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="valuemod.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="valuemod.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="valuemod.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 90</value>
+  </data>
+  <data name="valuemod.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 24</value>
+  </data>
+  <data name="valuemod.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="valuemod.Text" xml:space="preserve">
+    <value>Mod'da</value>
+  </data>
+  <data name="&gt;&gt;valuemod.Name" xml:space="preserve">
+    <value>valuemod</value>
+  </data>
+  <data name="&gt;&gt;valuemod.Type" xml:space="preserve">
+    <value>DarkUI.Controls.DarkRadioButton, DarkUI, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;valuemod.Parent" xml:space="preserve">
+    <value>darkGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;valuemod.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="valuegta.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="valuegta.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="valuegta.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 49</value>
+  </data>
+  <data name="valuegta.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 24</value>
+  </data>
+  <data name="valuegta.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="valuegta.Text" xml:space="preserve">
+    <value>GTA'da</value>
+  </data>
+  <data name="&gt;&gt;valuegta.Name" xml:space="preserve">
+    <value>valuegta</value>
+  </data>
+  <data name="&gt;&gt;valuegta.Type" xml:space="preserve">
+    <value>DarkUI.Controls.DarkRadioButton, DarkUI, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;valuegta.Parent" xml:space="preserve">
+    <value>darkGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;valuegta.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="darkGroupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>275, 151</value>
+  </data>
+  <data name="darkGroupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 150</value>
+  </data>
+  <data name="darkGroupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="darkGroupBox1.Text" xml:space="preserve">
+    <value>Durum</value>
+  </data>
+  <data name="&gt;&gt;darkGroupBox1.Name" xml:space="preserve">
+    <value>darkGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;darkGroupBox1.Type" xml:space="preserve">
+    <value>DarkUI.Controls.DarkGroupBox, DarkUI, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;darkGroupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;darkGroupBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="darkRadioButton1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="darkRadioButton1.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="darkRadioButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 43</value>
+  </data>
+  <data name="darkRadioButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 24</value>
+  </data>
+  <data name="darkRadioButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="darkRadioButton1.Text" xml:space="preserve">
+    <value>Profil 1</value>
+  </data>
+  <data name="&gt;&gt;darkRadioButton1.Name" xml:space="preserve">
+    <value>darkRadioButton1</value>
+  </data>
+  <data name="&gt;&gt;darkRadioButton1.Type" xml:space="preserve">
+    <value>DarkUI.Controls.DarkRadioButton, DarkUI, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;darkRadioButton1.Parent" xml:space="preserve">
+    <value>darkGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;darkRadioButton1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="darkGroupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 151</value>
+  </data>
+  <data name="darkGroupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>257, 146</value>
+  </data>
+  <data name="darkGroupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="darkGroupBox2.Text" xml:space="preserve">
+    <value>Profiller</value>
+  </data>
+  <data name="&gt;&gt;darkGroupBox2.Name" xml:space="preserve">
+    <value>darkGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;darkGroupBox2.Type" xml:space="preserve">
+    <value>DarkUI.Controls.DarkGroupBox, DarkUI, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;darkGroupBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;darkGroupBox2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 20</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1142, 314</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>GTA 5 Mods Move Tool</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DarkUI.Forms.DarkForm, DarkUI, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>
